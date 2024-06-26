@@ -69,10 +69,10 @@ try:
 
     col1, col2 = st.columns([1,1])
     with col1:
-        st.markdown("### Dataframe head")
+        st.markdown("### Start of the Period")
         st.dataframe(stocks_df.head(), use_container_width=True)
     with col2:
-        st.markdown("### Dataframe tail")
+        st.markdown("### End of the Period (Most Recent)")
         st.dataframe(stocks_df.tail(), use_container_width=True)
 
     col1, col2 = st.columns([1,1])
