@@ -2,10 +2,12 @@
 
 Visit the web app here: https://ygcapm.streamlit.app/
 
-Purpose of the CAPM Analysis Web App
+Purpose of the CAPM Analysis Web App:
+
 The primary purpose of this web app is to facilitate the analysis and visualization of stock performance using the Capital Asset Pricing Model (CAPM). CAPM is a financial model that helps investors understand the relationship between expected return and risk for a given stock. By using historical data, the app calculates key financial metrics such as beta, which measures a stock's volatility relative to the market, and the expected return based on the stock's risk profile.
 
-Key Features and Functionality
+Key Features and Functionality:
+
 Stock Ticker Management: Users can add and remove stock ticker symbols to customize their analysis. The app initializes with a default list of popular stocks and allows for easy modifications.
 
 Historical Data Analysis: Users can specify the number of years for historical data analysis. The app fetches data for the selected stocks and the S&P 500 index, which serves as the market benchmark.
