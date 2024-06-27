@@ -12,9 +12,15 @@ st.set_page_config(page_title="CAPM Analysis",
 st.title("Capital Asset Pricing Model")
 
 with st.expander("What is CAPM?"):
+    st.image("CAPMEq.png", use_column_width=True)
     st.write("""
     The Capital Asset Pricing Model (CAPM) is used to calculate the expected return of an asset based on its risk relative to the market.
     It helps investors assess the relationship between risk and potential return for stocks.
+    
+    - **ri** = expected return on a stock (%)
+    - **rf** = risk free return rate (%)
+    - **Bi** = Beta between the stock and the market
+    - **rm** = expected return of the market (%) (e.g., SP500)
     """)
 
 # Initialize session state for stocks list if it doesn't exist
